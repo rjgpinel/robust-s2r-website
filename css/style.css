@@ -25,10 +25,42 @@ a:hover {
   font-weight: bold;
 }
 
+#useful-buttons {
+  display: flex;
+  margin-top: 16px;
+}
+
+.forbidden {
+  cursor: not-allowed !important;
+  background-color: #bbb !important;
+  border-color: #bbb !important;
+  color: #181c21 !important;
+}
+
+.btn-dark {
+  border-radius: 0.5rem;
+}
+.btn-dark:hover {
+  background-color: #bbb;
+  border-color: #bbb;
+  color: #181c21;
+  font-weight: normal;
+}
+
 .navbar .navbar-collapse .navbar-nav > li > a.section-active {
   background-color: #E9ECEF;
   color: #343A40;
   font-weight: bold;
+}
+
+.video {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+#content img {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #contributors .col-lg-4 {
